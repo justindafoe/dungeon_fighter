@@ -1,0 +1,47 @@
+
+///////////////////////////////////
+////BATTLE PET DUNGEON CRAWLER////
+/////////////////////////////////
+
+
+/*ask for trainer name
+You are given 1 of 3  battle pets to start
+battle pet gets random health generated between 120- 150
+each attack has a percentage of hitting// light--85% //heavy--70% //special-- 40%
+each of the battle pets has 3 attacks.. light, heavy and special
+enemy battle pets.. 5 different are created
+each pattle pet has a random health generated of 80-110
+each battle pet has a light, heavy, and special attack
+
+trainer enters game
+trainer is asked if he would like a battle pet to help train
+trainer is then asked which battle pet he would like to train
+trainer selects one of the 3 pets
+game starts
+
+player enters dungeon
+
+player encounters an wild battle pet 
+player attacks
+enemy attacks
+
+this is returned until 1 battle pet faints
+
+if player is successful, he rest with battle pet, regaining all heath, and moves on
+if player loses battle, his battle pet faints and game over
+
+this repeats until a random number between 3 and 6 wild battle pets are defeated
+
+if player defeats all 3 wild battle pets without fainting he wins that dungeon trophy.
+*/
+
+
+
+/*
+private int minLightAttack = 30;
+    private int maxLightAttack = 30;
+    private int minHeavyAttack = 45;
+    private int maxHeavyAttack = 45;
+    private int minSpecialAttack = 75;
+    private int maxSpecialAttack = 75;
+    8?
